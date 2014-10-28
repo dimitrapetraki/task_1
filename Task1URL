@@ -19,6 +19,7 @@ public class Task1URL  {
 		  jep.setContentType("text/html");
 		  jep.setText("<html>Could not load</html>");
 		} 
+		
 		JScrollPane scrollPane = new JScrollPane(jep);     
 		JFrame f = new JFrame("Site Projection");
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
