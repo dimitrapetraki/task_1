@@ -24,7 +24,8 @@ public class Task1URL  {
 		f.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		f.getContentPane().add(scrollPane);
 		//creates projection window whith the scrollpane wher jep=jEditorpane//
-
+		
+		f.setSize(800, 450);
 		f.setVisible(true);
     }
 }
